@@ -26,7 +26,7 @@ setTimeout(() => resultDiv.style.opacity = 1, 200);
     resultDiv.innerHTML = `
       <h2>${data.name}, ${data.sys.country}</h2>
       <img src="http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt="icon">
-      <p>🌡️ Temperature: ${data.main.temp} °C</p>
+      <p>🌡️ Temperature:It feels like ${data.main.temp} °C</p>
       <p>💧 Humidity: ${data.main.humidity}%</p>
       <p>☁️ Condition: ${data.weather[0].description}</p>
     `;
